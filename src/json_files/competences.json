@@ -1,0 +1,93 @@
+{
+    "competences_package_one": [
+        {
+            "macro_competence": "Nutrizione e Dietetica",
+            "sub_competences": [
+                "Educazione alimentare",
+                "Nutrizione sportiva",
+                "Diete dimagranti"
+            ],
+            "description": "La nutrizione e la dietetica si concentrano sull'educazione alimentare, sull'ottimizzazione dell'alimentazione e sul supporto per stili di vita sani. Essa comprende strategie dietetiche per atleti, gestione del peso e miglioramento della salute generale, affrontando le esigenze individuali in base a condizioni specifiche e obiettivi.",
+            "text_align": "left"
+        },
+        {
+            "macro_competence": "Disturbi e Malattie Gastrointestinali",
+            "sub_competences": [
+                "Disturbi gastrointestinali",
+                "Gastrite",
+                "Reflusso gastroesofageo"
+            ],
+            "description": "Questa macrocompetenza tratta le varie problematiche che colpiscono il sistema digestivo, come gastrite, reflusso gastroesofageo e sindromi di intestino irritabile. L'attenzione è rivolta alla diagnosi, alla gestione dei sintomi e all'adattamento della dieta per migliorare la qualità della vita dei pazienti.",
+            "text_align": "right"
+        }
+    ],
+
+    "competences_package_two": [
+        {
+            "macro_competence": "Malattie Metaboliche e Ormonali",
+            "sub_competences": [
+                "Diabete",
+                "Ipertensione",
+                "Sindrome metabolica"
+            ],
+            "description": "Le malattie metaboliche e ormonali, come il diabete e l'ipertensione, richiedono una comprensione approfondita dei processi biochimici e delle loro implicazioni sulla salute. Qui si pone l'accento sulla prevenzione, gestione e trattamento di queste condizioni attraverso cambiamenti nello stile di vita e nella dieta.",
+            "text_align": "left"
+        },
+        {
+            "macro_competence": "Disturbi Alimentari",
+            "sub_competences": [
+                "Disturbi alimentari (anoressia e bulimia)",
+                "Obesità",
+                "Sottopeso"
+            ],
+            "description": "I disturbi alimentari, inclusi anoressia e bulimia, rappresentano una grave minaccia per la salute mentale e fisica. Questa macrocompetenza si occupa della prevenzione, diagnosi e trattamento di tali disturbi, enfatizzando l'importanza di un approccio multidisciplinare che coinvolga specialisti della salute mentale, nutrizionisti e medici.",
+            "text_align": "right"
+        }
+    ],
+
+    "competences_package_three": [
+        {
+            "macro_competence": "Condizioni Autoimmuni e Infiammazioni",
+            "sub_competences": [
+                "Malattie autoimmuni",
+                "Fibromialgia",
+                "Artrite"
+            ],
+            "description": "Le malattie autoimmuni e infiammatorie, come l'artrite e la fibromialgia, richiedono un'attenzione particolare in quanto possono causare sintomi cronici e debilitanti. Questa macrocompetenza esplora le interazioni tra dieta, infiammazione e gestione della malattia, puntando a migliorare il benessere generale attraverso l'alimentazione.",
+            "text_align": "left"
+        },
+        {
+            "macro_competence": "Allergie e Intolleranze",
+            "sub_competences": [
+                "Allergie alimentari",
+                "Intolleranza al lattosio",
+                "Celiachia"
+            ],
+            "description": "Le allergie e le intolleranze alimentari, come la celiachia e l'intolleranza al lattosio, rappresentano sfide significative nella vita quotidiana. Questa macrocompetenza si occupa della gestione delle reazioni allergiche e delle strategie dietetiche necessarie per evitare determinati alimenti, garantendo al contempo una nutrizione adeguata.",
+            "text_align": "right"
+        }
+    ],
+    
+    "competences_package_four": [
+        {
+            "macro_competence": "Allergie e Intolleranze",
+            "sub_competences": [
+                "Diabete",
+                "Insufficienza renale",
+                "Malattie epatiche"
+            ],
+            "description": "Le malattie e condizioni specifiche, tra cui l'insufficienza renale e le malattie epatiche, necessitano di un'attenzione particolare nella pianificazione dietetica e nella gestione della salute. Questa macrocompetenza affronta le esigenze nutrizionali e le restrizioni necessarie per migliorare la qualità della vita e gestire efficacemente le patologie.",
+            "text_align": "left"
+        },
+        {
+            "macro_competence": "Condizioni Generali di Salute",
+            "sub_competences": [
+                "Affaticamento cronico",
+                "Emicrania",
+                "Colesterolo alto"
+            ],
+            "description": "Questa macrocompetenza riguarda il benessere generale e le condizioni comuni, come l'affaticamento cronico e l'emicrania. Si concentra sulla promozione di uno stile di vita sano e sull'importanza di un'alimentazione equilibrata per prevenire e gestire tali condizioni, con un forte focus sulla prevenzione e il miglioramento della salute.",
+            "text_align": "right"
+        }
+    ]
+}

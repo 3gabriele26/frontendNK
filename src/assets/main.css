@@ -1,0 +1,13 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.orange-button-color {
+  background-color: #AE803E !important;
+  border-color: #AE803E !important;
+}
