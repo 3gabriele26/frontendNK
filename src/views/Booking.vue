@@ -44,7 +44,9 @@
             <button type="submit" class="btn orange-button-color">INVIA</button>
         </form>
 
-        {{ formData.visit_type }}
+        <p class="mt-5 mb-1">oppure</p>
+
+        <a href="https://www.nutridoc.it/nutrizionista/nazeda-kashta-1" class="btn btn-secondary">PRENOTA UNA VISITA TRAMITE NUTRIDOC</a>
     </div>
 </template>
 
@@ -52,7 +54,9 @@
 
     .container {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         max-width: 60rem;
     }
 

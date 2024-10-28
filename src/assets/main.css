@@ -11,3 +11,7 @@
   background-color: #AE803E !important;
   border-color: #AE803E !important;
 }
+
+.hidden {
+  display: none !important;
+}

@@ -8,14 +8,18 @@
 
         <div class="container text-center">
             <div class="row">
+                <div class="col link-container"> 
+                    <h5>Link utili</h5>
 
-                <div class="col location-container"> 
-                    <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                        Studi ed Indirizzi
-                    </button>
-                    <button type="button" class="btn btn-link">Privacy Policy</button>
-                    <button type="button" class="btn btn-link">Cookie Policy</button>
-                    <button type="button" class="btn btn-link">GSTGRL</button>
+                    <div class="location-container">
+                        <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            Studi ed Indirizzi
+                        </button>
+
+                        <button type="button" class="btn btn-link hidden">Privacy Policy</button>
+                        <button type="button" class="btn btn-link hidden">Cookie Policy</button>
+                        <button type="button" class="btn btn-link">GSTGRL</button>
+                    </div>
 
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
@@ -35,26 +39,21 @@
                 </div>
 
                 <div class="col">
+                    <div class="info-contact">
+                        <h5 class="card-title">Dott.ssa Nazeda Kashta</h5>
 
-                    <h5 class="card-title">Dott.ssa Nazeda Kashta</h5>
+                        <div class="social-container">
+                            <a href="https://www.instagram.com/dottoressanazedakashta/" target="_blank" class="social-link me-3">
+                                <img src="../assets/instagram.png" alt="Instagram logo" height="18">
+                            </a>
 
-                    <div class="contact-container">
-                        <img src="../assets/logo.png" class="card-img-top" alt="logo">
-
-                        <div class="card-body mt-5">
-                            <ul>
-                                <li>
-                                    <span><img src="../assets/instagram.png" alt="Instagram logo" height="20"></span>
-                                    <h6 class="ms-1"><a href="https://www.instagram.com/dottoressanazedakashta/" target="_blank">Instagram</a></h6>
-                                </li>
-                                <li class="mt-3">
-                                    <span><img src="../assets/linkedin.png" alt="Linkedin logo" height="18"></span>
-                                    <h6 class="mt-1 ms-1"><a href="https://www.linkedin.com/in/nazeda-kashta-289518158/" target="_blank">LinkedIn</a></h6>
-                                </li>
-                            </ul>
+                            <a href="https://www.linkedin.com/in/nazeda-kashta-289518158/" target="_blank" class="social-link">
+                                <img src="../assets/linkedin.png" alt="Linkedin logo" height="18">
+                            </a>
                         </div>
                     </div>
 
+                    <img src="../assets/logo.png" class="card-img-top" alt="logo">
                 </div>
             </div>
         </div>
@@ -106,6 +105,13 @@
         flex-direction: column;
     }
 
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .location-container {
         display: flex;
         flex-direction: column;
@@ -113,17 +119,30 @@
         justify-content: space-around;
     }
 
-    .contact-container {
+    .info-contact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
         width: fit-content;
         margin: 0 auto;
     }
 
     .card-img-top {
         width: 150px;
+    }
+
+    .social-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5rem;
+    }
+
+    .social-link {
+        display: flex;
+        background-color: white;
+        padding: 0.6rem;
+        border-radius: 0.5rem;
     }
 
     .copyright-container {
